@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_a"
+            android:icon="@drawable/ic_chat_one"
+            android:title="a"/>
+        <item android:id="@+id/nav_b"
+              android:icon="@drawable/ic_chat_two"
+              android:title="b"/>
+        <item android:id="@+id/nav_c"
+              android:icon="@drawable/ic_perm_identity_two"
+              android:title="c"/>
+        <item android:id="@+id/nav_d"
+              android:icon="@drawable/ic_lock_accent"
+              android:title="d"/>
+        <item android:id="@+id/nav_e"
+              android:icon="@drawable/ic_shopping_two"
+              android:title="e"/>
+    </group>
+</menu>

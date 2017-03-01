@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_share_message"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="movie.yq.com.share1.ShareMessageActivity">
+
+    <!--分享样式-->
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/share_little_bg"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:layout_marginBottom="100dp"
+        >
+        <ImageView
+            android:id="@+id/ll_bottom_iv_weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/fun_share_weixin"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/ll_bottom_iv_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/addimport_qq"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/ll_bottom_iv_friends"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/fun_share_friends"
+            android:layout_gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/ll_bottom_iv_weibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/fun_share_weibo"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"/>
+</RelativeLayout>
